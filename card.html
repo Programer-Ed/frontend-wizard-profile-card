@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Wizard - Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+  <div class="profile-header">
+    <h2 data-testid="test-user-name">Gojo Satoru</h2>
+    <figure class="avatar">
+      <img
+        src="me.jpg"
+        alt="Profile photo of Gojo Satoru"
+        data-testid="test-user-avatar"
+      />
+    </figure>
+  </div>
+
+  <div class="bio-section">
+    <p data-testid="test-user-bio" class="bio">
+      Fullstack developer, love learning something new, debugging, helping people. I also like movies and music and I am a christian.
+    </p>
+    <p data-testid="test-user-time" class="time"></p>
+
+    <nav aria-label="Social links">
+      <ul data-testid="test-user-social-links" class="social-links">
+        <li><a href="https://x.com/ang_a85444" data-testid="test-user-social-twitter" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="hhttps://github.com/Programer-Ed" data-testid="test-user-social-github" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+    </nav>
+
+    <div class="lists">
+      <section aria-labelledby="hobbies-title">
+        <h3 id="hobbies-title">Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Basketball</li>
+          <li>Board games</li>
+          <li>Video games</li>
+          <li>Music</li>
+          <li>Anime</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="dislikes-title">
+        <h3 id="dislikes-title">Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Coding errors</li>
+          <li>Loud events</li>
+          <li>Late deployments</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</article>
+  <script src="script.js"></script>
+</body>
+</html>
