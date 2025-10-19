@@ -5,5 +5,4 @@ function updateTime() {
 }
 
 updateTime();
-// Optional: update every second if you want
 setInterval(updateTime, 1000);
