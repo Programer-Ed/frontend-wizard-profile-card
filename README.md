@@ -1,6 +1,6 @@
 # 🚀 Frontend Wizards — Stage 0: Profile Card + Bonus Pages
 
-Welcome to **Stage 0** of the Frontend Wizards Challenge!
+Welcome to **Stage 1** of the Frontend Wizards Challenge!
 This project began as a simple **Profile Card**, but has now grown into a **mini personal site** — complete with **About** and **Contact** pages, **responsive navigation**, and a **cohesive design system** built purely with **HTML, CSS, and Vanilla JS**.
 
 ---
