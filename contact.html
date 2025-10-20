@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Chocolate </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main data-testid="test-contact-page">
+        <header class="navbar">
+            <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </nav>
+        </header>
+        <section class="contact-container">
+            <h1>Contact Me</h1>
+            <form id="contactForm" novalidate>
+                <label for="name">Full Name</label>
+                <input id="name" data-testid="test-contact-name" required />
+
+                <label for="email">Email</label>
+                <input id="email" type="email" data-testid="test-contact-email" required />
+
+                <label for="subject">Subject</label>
+                <input id="subject" data-testid="test-contact-subject" required />
+
+                <label for="message">Message</label>
+                <textarea id="message" minlength="10" data-testid="test-contact-message"></textarea>
+
+                <button type="submit" data-testid="test-contact-submit">Send</button>
+
+                <p id="success" data-testid="test-contact-success" hidden>
+                ✅ Message sent successfully!
+                </p>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
